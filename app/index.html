@@ -2,10 +2,126 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Проект</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,400i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<h1>Проект!222</h1>
+	
+	<div class="container">
+		<div class="row">
+			<!-- Left colum -->
+			<div class="col-md-4">
+				<div class="card mb-3">
+					<div class="profile-background"></div>
+					<div class="profile-avatar">
+						<img src="img/аватар.jpg" alt="Николай Парфенов">
+					</div>
+					<div class="card-body">
+						<h2 class="profile-title">Николай Парфенов</h2>
+						<div class="profile-description">
+							<p>Пишу о жизни и веб-разработке.</p>
+						</div>
+
+						<ul class="stats">
+							<li class="stats-item">
+								<b class="stats-title">Твиты</b>
+								<b class="stats-count">57</b>
+							</li>
+							<li class="stats-item">
+								<b class="stats-title">Лайки</b>
+								<b class="stats-count">112</b>
+							</li>
+							<li class="stats-item">
+								<b class="stats-title">Репосты</b>
+								<b class="stats-count">85</b>
+							</li>
+						</ul>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- // Left colum -->
+			<!-- Right colum -->
+			<div class="col-md-8">
+				<!-- Make a tweet -->
+				<div class="card mb-3">
+					<div class="card-body">
+						<form>
+						  <div class="form-group">
+						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового?">
+						  </div>
+						  <button type="submit" class="btn btn-primary">Твитнуть</button>
+						</form>
+					</div>
+				</div>
+				<!-- // Make a tweet -->
+				<div class="card tweet-card tweet-card-rounded-top">
+					<div class="h4 mb-0">Твиты пользователя</div>
+				</div>
+				
+				<!-- Single Tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-data">08 июля 2018 г.</div>
+					<div class="tweet-text font-size-normal">
+						<p>Запустил мини курсю Бесплатная серия уроков - "Создай свой первый сайт на HTML5 и CSS3" <a href="http://webcademy.ru/htmlsite/">http://webcademy.ru/htmlsite/</a></p>
+					</div>
+					
+				</div>
+				<!-- // Single Tweet -->
+				
+				<!-- Single Tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-data">07 июля 2018 г.</div>
+					<div class="tweet-text font-size-small">
+						<p>После беглого знакомства с JSON web tokens может сложиться впечатление, что они встроены в современные механизмы авторизации и аутентификации, такие как OAuth или OpenID. Однако это не совсем так. JSON токены действительно используются в этих системах, но не являются их частью. Более того, сфера их использование гораздо шире авторизации.</p>
+					</div>
+					
+				</div>
+				<!-- // Single Tweet -->
+
+				<!-- Single Tweet -->
+				<div class="card tweet-card">
+					<div class="tweet-data">06 июля 2018 г.</div>
+					<div class="tweet-text font-size-large">
+						<p>"ТОП-6 возможностей console, о которых вы не знали" <a href="https://proglib.io/p/console-gift/">https://proglib.io/p/console-gift/</a></p>
+					</div>
+					
+				</div>
+				<!-- // Single Tweet -->
+
+				<!-- Footer -->
+				<footer class="footer">
+					<p class="footer-copyright">
+						© Николай Парфенов 2018<br/>
+						Сверстано с <i class="fa fa-heart"></i> в <a href="http://webcademy.ru" class="footer-link" target="_blank">WebCademy.ru</a> в 2018 году
+					</p>
+				</footer>
+				<!-- // Footer -->
+
+			</div> 
+			<!-- // Right colum -->
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>
